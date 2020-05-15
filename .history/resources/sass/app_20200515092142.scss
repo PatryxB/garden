@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+    color: black;
+    margin-left: 20px;
+    cursor:pointer;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+}
+.banner, .container{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    filter: brightness(60%);
+}
+.text-banner{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+h2{
+    text-align: center;
+    color: rgb(42, 255, 52);
+}
+.box{
+    width: 300px;
+    height: 265px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+.photo{
+    height: 220px;
+}
+.photo img{
+    width: 300px;
+    height: 100%;
+}
+.info{
+    background-color: rgb(90, 90, 90);
+    color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 34px;
+    padding-top: 10px;
+    text-align: center;
+}
+.garden img{
+    width: 50%;
+    height: 55vh;
+    float: left;
+}
+.garden{
+    margin-top: 100px;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    width: 380px;
+    height: 25px;
+    background-color: rgb(90, 90, 90);
+    border: 2px solid black;
+    color: white;
+}
+textarea{
+    background-color: rgb(90, 90, 90);
+    color: white;
+    border: 2px solid black;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.btn{
+    background-color: rgb(44, 44, 44);
+    padding: 12px;
+    width: 100px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.person{
+    float: left;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.person img{
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+}
+h4{
+text-align: center;
+}
+#persons{
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 23px;
+}
